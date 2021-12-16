@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<style>
+    .container{
+        margin-top: 10%;
+        padding: 5em;
+        width: 50%;
+        height: 80vh;
+        border: 1px solid black;
+        background-color: #514F59;
+        flex-direction: row;
+        border-radius: 100vh;
+        /* justify-content: space-between; */
+        
+
+    }
+    H1{
+        text-align: center;
+        color: #838E83;
+    }
+    button{
+        width: 100%;
+    }
+    .entrer{
+        width: 100%;
+        text-decoration: none;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        height: 40px;
+        letter-spacing: 1px;
+    }
+
+   nav ul  {
+    /* text-align: center; */
+    list-style: none;
+    margin-top: 2em;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+   } 
+   li a {
+    text-decoration: none;
+   }
+   img{
+       margin-top: 0;
+       border-radius: inherit;
+   }
+   /* .pass{
+       text-align: right;
+   } */
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+        <!-- <img src="./image/photo-id.jpeg" alt=""> -->
+        <h1>KWICK</h1>
+    </header>
+    <main>
+        <form>
+            
+            
+            <div class="mb-3">
+              <label for="username" class="form-label">Nom d'utilisateur</label>
+              <input type="email" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Votre identifiant">
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Mot de passe</label>
+                <input type="password" class="form-control" id="password" placeholder="Votre mot de passe">
+              </div>
+            <div class="mb-3 form-check">
+              <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+            </div>
+            <div class="entrer">
+            <a class="entrer" href="Entrer.html">Entrer</a>
+        </div>
+            <!-- <button type="submit" class="btn btn-primary">Entrer</button> -->
+          </form>
+          <div class="row">
+          
+            <nav>
+              
+              <ul>
+                <div class="col-2">
+                  <li>
+                        <a  href="sins.html">s'inscrire</a>
+              </li>
+            </div>
+            <div class="col-5">
+              <li>
+                <a  href="">Mot de passe oublié ?</a>
+            </li>
+        </div>
+              </ul> 
+        </nav>
+    </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="kwick.js"></script>
+</body>
+</html>
